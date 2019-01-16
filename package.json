@@ -1,0 +1,9 @@
+{
+  "name": "plantcss",
+  "version": "0.1.0",
+  "description": "Spend more time designing and less time configuring.",
+  "main": "dist/index.js",
+  "repository": "https://github.com/knowler/plantcss.git",
+  "author": "Nathan Knowler <nathan@knowler.me>",
+  "license": "MIT"
+}
