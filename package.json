@@ -1,9 +1,19 @@
 {
   "name": "plantcss",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "description": "Spend more time designing and less time configuring.",
   "main": "dist/index.js",
-  "repository": "https://github.com/knowler/plantcss.git",
-  "author": "Nathan Knowler <nathan@knowler.me>",
-  "license": "MIT"
+  "repository": "https://github.com/plantcss/plantcss.git",
+  "author": "Nathan Knowler",
+  "license": "MIT",
+  "scripts": {
+    "build": "rimraf dist && babel src -d dist",
+    "css": "node dist/index.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.0",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.0",
+    "rimraf": "^2.6.3"
+  }
 }

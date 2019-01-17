@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+  - 8
+  - 10
+  - nightly
+
+matrix:
+  fast_finish: true
+  allow_failures:
+    - node_js: nightly
+
+script:
+  - yarn
+  - yarn build
+  - yarn css
